@@ -135,7 +135,6 @@ S_source.c
 S_checksums.c
 S_run_summary
 trick-catalog/
-trick/
 trick.zip
 errorlog.txt
 
