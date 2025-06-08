@@ -1,0 +1,11 @@
+# JEOD project Python requirements
+# This file lists third-party packages used by scripts
+# throughout the repository. Version numbers are not fixed
+# but the packages should be compatible with Python 3.6+.
+
+numpy
+matplotlib
+h5py
+mako
+regex
+metrixpp
