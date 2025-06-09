@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.6] - Testing and CI
+- Added unit tests and GitHub Actions workflow to run pytest.
+- Bumped version to 0.1.6.
+
+
 ## [0.1.5] - CLI interface
 - Added a CLI with `generate` and `version` commands
   that ties into the `InputBuilder` helper.

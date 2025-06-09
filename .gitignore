@@ -67,6 +67,8 @@ metrixpp.db
 
 # Any file starting with a dot.
 .*
+!.github/
+!.github/workflows/
 
 # ctags tags files
 tags

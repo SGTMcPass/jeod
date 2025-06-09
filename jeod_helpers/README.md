@@ -1,3 +1,4 @@
+# JEOD Helpers
 
 Utility functions for building Trick input files programmatically.
 
