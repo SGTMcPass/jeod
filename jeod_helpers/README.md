@@ -28,3 +28,13 @@ bldr.set_rot_state(veh, [0,0,0,1], [0,0,0])
 actions = bldr.build()
 print(actions)
 ```
+
+## CLI Usage
+
+Use the ``jeod-helpers`` command to generate a simple ``input.py``::
+
+```bash
+jeod-helpers generate my_input.py
+```
+
+The script writes a basic input file using :class:`InputBuilder`.
