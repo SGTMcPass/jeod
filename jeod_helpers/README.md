@@ -39,3 +39,9 @@ jeod-helpers generate my_input.py
 ```
 
 The script writes a basic input file using :class:`InputBuilder`.
+
+## Example Input File
+
+The directory `docs/Training/Exercises/Solutions/SIM_05/SET_test/RUN_test` now contains
+`input.py` rewritten using `InputBuilder`. It demonstrates how to configure a vehicle,
+set its state, enable gravity, and register initialization actions programmatically.

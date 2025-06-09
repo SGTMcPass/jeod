@@ -19,7 +19,14 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -e .
-        pip install pytest
+        pip install pytest pytest-cov
     - name: Test with pytest
       run: |
-        pytest -q || echo "Tests failed due to missing Trick environment"
+        pytest --cov=jeod_helpers --cov-report=xml --cov-fail-under=100 \
+          || echo "Tests failed due to missing Trick environment"
+    - name: Upload coverage
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: coverage
+        path: coverage.xml

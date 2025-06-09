@@ -9,3 +9,5 @@ h5py
 mako
 regex
 metrixpp
+pytest
+pytest-cov
