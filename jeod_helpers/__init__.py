@@ -18,7 +18,7 @@ __all__ = [
     "events",
     "builder",
 ]
-__version__ = "0.1.8"
+__version__ = "0.1.9"
 
 logger = logging.getLogger(__name__)
 

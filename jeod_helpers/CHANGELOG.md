@@ -1,4 +1,7 @@
 # Changelog
+## [0.1.9] - Packaging fix
+- Restricted package discovery to `jeod_helpers` to avoid editable install failures.
+- Bumped version to 0.1.9.
 ## [0.1.8] - Example rewrite
 - Replaced SIM_05 RUN_test input file with a version that uses `InputBuilder` and helper utilities.
 - Expanded README with instructions and example input file location.
