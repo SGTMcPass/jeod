@@ -11,15 +11,22 @@ import logging
 
 __all__ = [
     "__version__",
+    "JeodHelperError",
     "vehicles",
     "states",
     "gravity",
     "events",
     "builder",
 ]
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 logger = logging.getLogger(__name__)
+
+
+class JeodHelperError(Exception):
+    """Exception raised for invalid helper input."""
+
+
 
 from . import builder, events, gravity, states, vehicles
 
