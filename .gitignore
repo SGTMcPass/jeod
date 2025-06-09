@@ -17,6 +17,7 @@ dep_jeod_*
 trickified/python*
 regression/logs
 build*
+!jeod_helpers/builder.py
 artifacts
 
 #documentation build products
@@ -66,6 +67,8 @@ metrixpp.db
 
 # Any file starting with a dot.
 .*
+!.github/
+!.github/workflows/
 
 # ctags tags files
 tags
