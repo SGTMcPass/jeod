@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jeod_helpers"
-version = "0.1.0"
+version = "0.1.1"
 description = "JEOD input helper utilities"
 readme = "jeod_helpers/README.md"
 license = {text = "NASA Open Source Agreement 1.3"}
