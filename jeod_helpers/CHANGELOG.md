@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.7] - Coverage workflow
+- Added coverage reporting via pytest-cov with 100% threshold.
+- Workflow now uploads coverage.xml as an artifact.
+- Bumped version to 0.1.7.
+
 ## [0.1.6] - Testing and CI
 - Added unit tests and GitHub Actions workflow to run pytest.
 - Bumped version to 0.1.6.

@@ -10,7 +10,7 @@
 | 6 | Logging and Event Helpers | ✔ Done |
 | 7 | Input File Builder Class | ✔ Done |
 | 8 | CLI Interface | ✔ Done |
-| 9 | Testing & Continuous Integration | ☐ Pending |
+| 9 | Testing & Continuous Integration | ✔ Done |
 | 10 | Example Usage & Documentation | ☐ Pending |
 
 This tracker records sprint objectives and their completion status.
