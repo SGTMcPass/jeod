@@ -17,6 +17,7 @@ dep_jeod_*
 trickified/python*
 regression/logs
 build*
+!jeod_helpers/builder.py
 artifacts
 
 #documentation build products
