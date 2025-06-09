@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.5] - CLI interface
+- Added a CLI with `generate` and `version` commands
+  that ties into the `InputBuilder` helper.
+- Bumped version to 0.1.5.
+
 ## [0.1.4] - Input builder class
 - Added ``InputBuilder`` that records body initialization actions for
   ``dynamics.dyn_manager``.
