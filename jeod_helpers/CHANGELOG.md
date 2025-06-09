@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.3] - Logging and events
+- Added wrappers for `trick.add_data_record_group` and event scheduling with
+  timestamped logging.
+- Bumped version to 0.1.3.
+
 ## [0.1.2] - State and gravity helpers
 - Added translation and rotation state utilities with unit handling.
 - Added gravity configuration helpers including spherical harmonics.
