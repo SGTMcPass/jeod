@@ -36,7 +36,7 @@ def set_trans_state(
     body : object
         Body placeholder.
     position : Sequence[float]
-        Position vector [m].
+        Position vector.
     velocity : Sequence[float]
         Velocity vector.
     pos_units : str, optional

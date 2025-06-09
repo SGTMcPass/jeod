@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.4] - Input builder class
+- Added ``InputBuilder`` that records body initialization actions for
+  ``dynamics.dyn_manager``.
+- Updated documentation and bumped version to 0.1.4.
+
 ## [0.1.3] - Logging and events
 - Added wrappers for `trick.add_data_record_group` and event scheduling with
   timestamped logging.
